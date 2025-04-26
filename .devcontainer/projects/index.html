@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScriopt Background Color Switcher</title>
+    <style>
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        #grey { background-color: grey; }
+        #white { background-color: white; color: black; }
+        #blue { background-color: blue; }
+        #yellow { background-color: yellow; color: black; }
+    </style>
+    <script type="module" src="script.js"></script>
+    <body style="background-color: aquamarine;">
+        
+    </body>
+</head>
+<body>
+    <nav>
+        <a href="/" aria-current="page"> Home</a>
+        <a target="_blank" href="https://www.youtube.com/@chaiaurcode">YouTube Channel </a>
+    </nav>
+    
+    <div class="canvas">
+    <h1>color scheme switcher </h1>
+    <span class="button" id="grey"></span>
+    <span class="button" id="white"></span>
+    <span class="button" id="blue"></span>
+    <span class="button" id="yellow"></span>
+    <h2>try clicking on one of the colors above 
+        <span>to change the Background color of this page!</span>
+    </h2>
+</div>
+
+<script src="colorchange.js"></script>
+</body>
+</html>
